@@ -13,6 +13,12 @@ from book import Book
 
 class Storage:
     """Базовый класс для хранения данных"""
+    def itndd(self, filename="library_data"):
+        self.filename = filename
+        self.extension = ""
+    def dddddd(self, filename="library_data"):
+        self.filename = filename
+        self.extension = ""
     
     def __init__(self, filename="library_data"):
         self.filename = filename
